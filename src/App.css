@@ -1,7 +1,14 @@
 .App {
+  font-family: 'Poppins', sans-serif;
+}
+
+/*
+
+.App {
   text-align: center;
 }
 
+ 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +42,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+ */
+
+.boxShadow,
+.boxShadow:focus {
+  box-shadow: none !important;
+}
+
+.no-border {
+  border-top: none !important;
+  border-right: none !important;
+  border-left: none !important;
 }
