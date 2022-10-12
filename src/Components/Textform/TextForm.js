@@ -86,7 +86,7 @@ export default function TextForm(props) {
                         }}
                     ></textarea>
                 </div>
-                <div className="d-grid gap-2 d-md-flex">
+                <div className="d-flex gap-2 flex-wrap ">
                     <button
                         className={`btn btn-${
                             props.mode === "light" ? "danger" : "primary"
